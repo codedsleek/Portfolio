@@ -622,7 +622,7 @@ footer div img {
     padding: .3em;
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 600px) {
     header .container {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -795,7 +795,7 @@ footer div img {
     
 }
 
-@media (max-width: 720px) {
+@media only screen and (max-width: 900px) {
     .project {
       background-color: var(--primary-color);
       padding: 0 1em;
@@ -867,3 +867,4 @@ footer div img {
       font-size: 1.5vw;
     }
 }
+**/
