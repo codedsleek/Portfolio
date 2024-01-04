@@ -622,7 +622,7 @@ footer div img {
     padding: .3em;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
     header .container {
       display: -webkit-box;
       display: -ms-flexbox;
