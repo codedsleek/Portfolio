@@ -622,7 +622,7 @@ footer div img {
     padding: .3em;
 }
 
-@media only screen and (max-width: 950px) {
+@media (max-width: 480px) {
     header .container {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -759,7 +759,8 @@ footer div img {
     }
 
     .Skills .container4 {
-    -ms-grid-columns: 1fr;
+        display: grid;
+        grid-column: 1fr;
         grid-template-columns: 1fr;
     }
 
@@ -790,9 +791,11 @@ footer div img {
     footer p {
     font-size: .8em;
     }
+
+    
 }
 
-@media only screen and (max-width: 590px) {
+@media (max-width: 720px) {
     .project {
       background-color: var(--primary-color);
       padding: 0 1em;
