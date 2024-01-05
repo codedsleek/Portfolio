@@ -794,8 +794,8 @@ footer div img {
 
     
 }
-/**
-@media only screen and (max-width: 960px) {
+
+@media only screen and (max-width: 768px) {
     .project {
       background-color: var(--primary-color);
       padding: 0 1em;
@@ -867,4 +867,4 @@ footer div img {
       font-size: 1.5vw;
     }
 }
-**/
+
