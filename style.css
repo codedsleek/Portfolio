@@ -792,9 +792,8 @@ footer div img {
     font-size: .8em;
     }
 
-    
 }
-
+/**
 @media only screen and (min-width: 768px) {
     .project {
       background-color: var(--primary-color);
@@ -867,4 +866,4 @@ footer div img {
       font-size: 1.5vw;
     }
 }
-
+**/
